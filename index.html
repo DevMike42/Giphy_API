@@ -11,31 +11,36 @@
     <link rel = 'stylesheet' type = 'text/css' media = 'screen' href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'/>
     <!-- CSS Stylesheet Link -->
     <link rel = 'stylesheet' type = 'text/css' media = 'screen' href = 'assets/css/style.css' />
-    <!-- JavaScript Logic Link -->
-    <script src = 'assets/javascript/logic.js'></script>
 </head>
 <body>
-
-    <div class = 'buttons'>
+    <!-- Butons Div -->
+    <div class='buttons'>
         <button>Button 1</button>
         <button>Button 2</button>
     </div>
-
-    <div class = 'row'>
-
-    <div class = 'col-md-8' id = 'gifs'>
-        <h1>Gifs Area</h1>
+    <div class='row'>
+        <!-- Gifs Div -->
+        <div class='col-md-8 , gifsDiv'>
+            <h1>Gifs Area</h1>
+        </div>
+        <!-- Search form Div -->
+        <form class='col-md-4'>
+            <div class='form-group'>
+                <label>Add an animal</label>
+                <input type="text" class="form-control" id="searchInput">
+                <br>
+                <button type="submit" class="btn btn-primary" id="add-animal">Add animal Bro</button>
+            </div>
+        </form>
     </div>
 
-    <form class = 'col-md-4'>
-        <div class = 'form-group'>
-            <label for="exampleInputEmail1">Add an animal</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>    
-    </form>
-
-    </div>
+    <!-- jQuery Link -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <!-- JavaScript Logic Link -->
+    <script src = 'assets/javascript/logic.js'></script>
 </body>
 </html>
