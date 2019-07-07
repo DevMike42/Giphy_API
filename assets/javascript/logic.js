@@ -1,5 +1,5 @@
 // Array for GIF buttons
-var GIFs = ["Hotdog", "Samuel L Jackson", "Rick James", "dog butts"];
+var GIFs = ["Hotdog", "Pizza", "Rick James", "dogs"];
 
 // Function for displaying GIFS
 function displayGIFs (){
